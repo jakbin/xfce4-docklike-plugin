@@ -1,0 +1,190 @@
+# Docklike-plugin i18n file
+# Copyright (C) 2020 Nicolas Szabo
+# This file is distributed under the same license as the Docklike package.
+# Nicolas Szabo <nszabo@vivaldi.net>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Docklike 0.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-22 21:34-0700\n"
+"PO-Revision-Date: 2021-07-20 18:35-0700\n"
+"Last-Translator: David Keogh <davidtkeogh@gmail.com>\n"
+"Language-Team: FR\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: ../src/Wnck.cpp:198
+msgid "Pinned to Dock"
+msgstr "Épingler"
+
+#: ../src/Wnck.cpp:198
+msgid "Pin to Dock"
+msgstr "Désépingler"
+
+#: ../src/Wnck.cpp:199
+msgid "Edit Launcher"
+msgstr "Modifier le lanceur"
+
+#: ../src/Wnck.cpp:226
+msgid "Close All"
+msgstr "Tout fermer"
+
+#: ../src/Wnck.cpp:245
+msgid "Remove"
+msgstr ""
+
+#: ../src/SettingsDialog.cpp:197
+#, c-format
+msgid "<b>Only the first %u hotkeys(s) are enabled.</b>\n"
+msgstr "<b>Seules les %u premières touches de raccourci sont activées.</b>\n"
+
+#: ../src/SettingsDialog.cpp:199
+#, c-format
+msgid ""
+"The &lt;SUPER&gt;+%u combination seems already in use by another process.\n"
+"Check your Xfce settings."
+msgstr ""
+"La combinaison &lt;SUPER&gt;+%u semble déjà être utilisée par un autre "
+"processus.\n"
+"Vérifiez vos paramètres Xfce."
+
+#. namespace SettingsDialog
+#: ../src/docklike.desktop.in.h:1
+msgid "A modern, minimalist taskbar for Xfce"
+msgstr "Une barre des tâches moderne et minimaliste pour Xfce"
+
+#: ../src/_dialogs.xml.h:1
+msgid "_Help"
+msgstr "_Aider"
+
+#: ../src/_dialogs.xml.h:2
+msgid "_Close"
+msgstr "_Fermer"
+
+#: ../src/_dialogs.xml.h:3
+msgid "Don't show the window list for a single window"
+msgstr "Cacher la liste pour une seule fenêtre"
+
+#: ../src/_dialogs.xml.h:4
+msgid "Only show applications on the current workspace"
+msgstr "Ne voir que les applications de l'espace de travail courant"
+
+#: ../src/_dialogs.xml.h:5
+msgid "Only show applications on the current display"
+msgstr "Ne voir que les applications de l'écran du plugin"
+
+#: ../src/_dialogs.xml.h:6
+msgid "Show preview thumbnails for open windows"
+msgstr "Afficher les vignettes d'aperçu des fenêtres ouvertes"
+
+#: ../src/_dialogs.xml.h:7
+msgid "Show the number of open windows (if more than 2)"
+msgstr "Afficher le nombre de fenêtres ouvertes (si plus de 2)"
+
+#: ../src/_dialogs.xml.h:8
+msgid "Behavior"
+msgstr "Comportement"
+
+#: ../src/_dialogs.xml.h:9
+msgid "Indicator style:"
+msgstr "Style de l'indicateur:"
+
+#: ../src/_dialogs.xml.h:10
+msgid "Bars"
+msgstr "Barres"
+
+#: ../src/_dialogs.xml.h:11
+msgid "Dots"
+msgstr "Points"
+
+#: ../src/_dialogs.xml.h:12
+msgid "Rectangles"
+msgstr "Rectangles"
+
+#: ../src/_dialogs.xml.h:13
+msgid "None"
+msgstr "Rien"
+
+#: ../src/_dialogs.xml.h:14
+msgid "Indicator orientation:"
+msgstr "Orientation de l'indicateur:"
+
+#: ../src/_dialogs.xml.h:15
+msgid "Automatic"
+msgstr "Automatique"
+
+#: ../src/_dialogs.xml.h:16
+msgid "Bottom"
+msgstr "Bas"
+
+#: ../src/_dialogs.xml.h:17
+msgid "Right"
+msgstr "Droite"
+
+#: ../src/_dialogs.xml.h:18
+msgid "Top"
+msgstr "Haut"
+
+#: ../src/_dialogs.xml.h:19
+msgid "Left"
+msgstr "Gauche"
+
+#: ../src/_dialogs.xml.h:20
+msgid "Active indicator:"
+msgstr "Indicateur actif:"
+
+#: ../src/_dialogs.xml.h:21
+msgid "Force icon size:"
+msgstr "Forcer la taille des icônes:"
+
+#: ../src/_dialogs.xml.h:22
+msgid "Inactive indicator:"
+msgstr "Indicateur inactif:"
+
+#: ../src/_dialogs.xml.h:23
+msgid "Appearance"
+msgstr "Apparence"
+
+#: ../src/_dialogs.xml.h:24
+msgid "Switch between applications with <SUPER>+[1, 2, ...]"
+msgstr "Changer d'application avec <SUPER>+[1, 2, ...]"
+
+#: ../src/_dialogs.xml.h:25
+msgid "Switch to the last window with <SUPER>"
+msgstr "Appeler l'application précédente avec <SUPER>"
+
+#: ../src/_dialogs.xml.h:26
+msgid ""
+"<b>This feature is disabled.</b>\n"
+"It requires X11 XInput2.0 extension which is is not provided by your system."
+msgstr ""
+"<b>Cette fonction est désactivée.</b>\n"
+"Elle nécéssite l'extension X11 XInput2.0 qui n'est pas fournie par votre "
+"système."
+
+#: ../src/_dialogs.xml.h:28
+msgid "Keyboard hotkeys"
+msgstr "Raccourcis clavier"
+
+#~ msgid "A modern, minimalist taskbar for Xfce."
+#~ msgstr "Une barre des tâches moderne et minimaliste pour Xfce"
+
+#~ msgid "Pin"
+#~ msgstr "Épingler"
+
+#, fuzzy
+#~ msgid "Launch Another"
+#~ msgstr "Nouvelle instance"
+
+#~ msgid "Indicator color :"
+#~ msgstr "Couleur de l'indicateur :"
+
+#~ msgid "Contributors:"
+#~ msgstr "Contributeurs :"
+
+#~ msgid "Unpin"
+#~ msgstr "Désépingler"
