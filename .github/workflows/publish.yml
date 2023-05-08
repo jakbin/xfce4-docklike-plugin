@@ -15,7 +15,7 @@ jobs:
     - name: Build
       run: |
         mkdir usr
-        ./install.sh --prefix=/home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin/usr
+        ./configure --prefix=/home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin/usr
         make
         make install
 
