@@ -4,9 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Xfce Bot <transifex@xfce.org>, 2023
-# Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2023
-# UTUMI Hirosi <utuhiro78@yahoo.co.jp>, 2023
+# Nick Schermer <nick@xfce.org>, 2023
+# Moo, 2023
 # 
 #, fuzzy
 msgid ""
@@ -15,38 +14,38 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-02 12:55+0100\n"
 "PO-Revision-Date: 2023-02-22 11:02+0000\n"
-"Last-Translator: UTUMI Hirosi <utuhiro78@yahoo.co.jp>, 2023\n"
-"Language-Team: Japanese (https://www.transifex.com/xfce/teams/16840/ja/)\n"
+"Last-Translator: Moo, 2023\n"
+"Language-Team: Lithuanian (https://www.transifex.com/xfce/teams/16840/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #: ../src/Wnck.cpp:202
 msgid "Pinned to Dock"
-msgstr "ピン留め済み"
+msgstr "Prisegta prie doko"
 
 #: ../src/Wnck.cpp:202
 msgid "Pin to Dock"
-msgstr "ドックにピン留め"
+msgstr "Prisegti prie doko"
 
 #: ../src/Wnck.cpp:203
 msgid "Edit Launcher"
-msgstr "ランチャーを編集"
+msgstr "Taisyti leistuką"
 
 #: ../src/Wnck.cpp:230
 msgid "Close All"
-msgstr "全てのウィンドウを閉じる"
+msgstr "Užverti visus"
 
 #: ../src/Wnck.cpp:249
 msgid "Remove"
-msgstr "削除"
+msgstr "Šalinti"
 
 #: ../src/SettingsDialog.cpp:225
 #, c-format
 msgid "<b>Only the first %u hotkeys(s) are enabled.</b>\n"
-msgstr "<b>最初の %u ホットキーのみが有効です。</b>\n"
+msgstr "<b>Yra įjungtas tik pirmasis %u susiejimas(-ai).</b>\n"
 
 #: ../src/SettingsDialog.cpp:227
 #, c-format
@@ -54,73 +53,73 @@ msgid ""
 "The &lt;SUPER&gt;+%u combination seems already in use by another process.\n"
 "Check your Xfce settings."
 msgstr ""
-"&lt;SUPER&gt;+%u の組み合わせは既に別のプロセス使用されているようです。\n"
-"Xfceの設定を確認して下さい。"
+"Atrodo, kad kombinaciją &lt;SUPER&gt;+%u jau naudoja kitas procesas.\n"
+"Patikrinkite Xfce nustatymus."
 
 #. namespace SettingsDialog
 #: ../src/docklike.desktop.in.h:1
 msgid "A modern, minimalist taskbar for Xfce"
-msgstr "Xfce用のモダンで小さなタスクバー"
+msgstr "Šiuolaikinė, minimalistinė užduočių juosta, skirta Xfce"
 
 #: ../src/_dialogs.xml.h:1
 msgid "_Help"
-msgstr "ヘルプ"
+msgstr "Ž_inynas"
 
 #: ../src/_dialogs.xml.h:2
 msgid "_Close"
-msgstr "閉じる"
+msgstr "_Užverti"
 
 #: ../src/_dialogs.xml.h:3
 msgid "Don't show the window list for a single window"
-msgstr "1つのウィンドウの場合にウィンドウリストを非表示"
+msgstr "Nerodyti langų sąrašo, kai yra vienas langas"
 
 #: ../src/_dialogs.xml.h:4
 msgid "Only show applications on the current workspace"
-msgstr "現在のワークスペースのアプリケーションのみ表示"
+msgstr "Rodyti tik dabartinėje darbo srityje esančias programas"
 
 #: ../src/_dialogs.xml.h:5
 msgid "Only show applications on the current display"
-msgstr "現在のディスプレイのアプリケーションのみ表示"
+msgstr "Rodyti tik dabartiniame ekrane esančias programas"
 
 #: ../src/_dialogs.xml.h:6
 msgid "Show preview thumbnails for open windows"
-msgstr "ウィンドウのプレビューを表示"
+msgstr "Rodyti atvertų langų peržiūros miniatiūras"
 
 #: ../src/_dialogs.xml.h:7
 msgid "Show the number of open windows (if more than 2)"
-msgstr "開かれているウィンドウの数を表示（2つ以上の場合）"
+msgstr "Rodyti atvertų langų skaičių (jeigu jų yra daugiau nei 2)"
 
 #: ../src/_dialogs.xml.h:8
 msgid "Middle mouse button:"
-msgstr "マウスの中ボタン:"
+msgstr "Vidurinis pelės mygtukas:"
 
 #: ../src/_dialogs.xml.h:9
 msgid "Close all"
-msgstr "すべて閉じる"
+msgstr "Užverti visus"
 
 #: ../src/_dialogs.xml.h:10
 msgid "Launch new instance"
-msgstr "新しいインスタンスを起動"
+msgstr "Paleisti naują egzempliorių"
 
 #: ../src/_dialogs.xml.h:11
 msgid "Behavior"
-msgstr "動作"
+msgstr "Elgsena"
 
 #: ../src/_dialogs.xml.h:12
 msgid "Active indicator style:"
-msgstr "アクティブなインジケーターのスタイル:"
+msgstr "Aktyvaus indikatoriaus stilius:"
 
 #: ../src/_dialogs.xml.h:13
 msgid "Bars"
-msgstr "バー"
+msgstr "Juostos"
 
 #: ../src/_dialogs.xml.h:14
 msgid "Dots"
-msgstr "ドット"
+msgstr "Taškai"
 
 #: ../src/_dialogs.xml.h:15
 msgid "Rectangles"
-msgstr "長方形"
+msgstr "Stačiakampiai"
 
 #: ../src/_dialogs.xml.h:16
 msgid "Ciliora"
@@ -128,76 +127,76 @@ msgstr "Ciliora"
 
 #: ../src/_dialogs.xml.h:17
 msgid "Circles"
-msgstr "円"
+msgstr "Apskritimai"
 
 #: ../src/_dialogs.xml.h:18
 msgid "None"
-msgstr "なし"
+msgstr "Nėra"
 
 #: ../src/_dialogs.xml.h:19
 msgid "Inactive indicator style:"
-msgstr "アクティブでないインジケーターのスタイル:"
+msgstr "Neaktyvaus indikatoriaus stilius:"
 
 #: ../src/_dialogs.xml.h:20
 msgid "Indicator orientation:"
-msgstr "インジケータの向き:"
+msgstr "Indikatoriaus orientacija:"
 
 #: ../src/_dialogs.xml.h:21
 msgid "Automatic"
-msgstr "自動"
+msgstr "Automatiškai"
 
 #: ../src/_dialogs.xml.h:22
 msgid "Bottom"
-msgstr "下"
+msgstr "Apačia"
 
 #: ../src/_dialogs.xml.h:23
 msgid "Right"
-msgstr "右"
+msgstr "Dešinė"
 
 #: ../src/_dialogs.xml.h:24
 msgid "Top"
-msgstr "上"
+msgstr "Viršus"
 
 #: ../src/_dialogs.xml.h:25
 msgid "Left"
-msgstr "左"
+msgstr "Kairė"
 
 #: ../src/_dialogs.xml.h:26
 msgid "Get indicator color from theme"
-msgstr "テーマからインジケーターの色を取得"
+msgstr "Gauti indikatoriaus spalvą iš temos"
 
 #: ../src/_dialogs.xml.h:27
 msgid "Active indicator:"
-msgstr "アクティブなインジケーター:"
+msgstr "Aktyvus indikatorius:"
 
 #: ../src/_dialogs.xml.h:28
 msgid "Inactive indicator:"
-msgstr "アクティブでないインジケーター:"
+msgstr "Neaktyvus indikatorius:"
 
 #: ../src/_dialogs.xml.h:29
 msgid "Force icon size:"
-msgstr "アイコンサイズを強制的に変更する:"
+msgstr "Priverstinis piktogramų dydis:"
 
 #: ../src/_dialogs.xml.h:30
 msgid "Appearance"
-msgstr "見た目"
+msgstr "Išvaizda"
 
 #: ../src/_dialogs.xml.h:31
 msgid "Switch between applications with <SUPER>+[1, 2, ...]"
-msgstr "アプリケーションを <SUPER>+[1, 2, ...] で切り替える"
+msgstr "Perjunginėkite programas naudodami <SUPER>+[1, 2, ...]"
 
 #: ../src/_dialogs.xml.h:32
 msgid "Switch to the last window with <SUPER>"
-msgstr "<SUPER> で最後のウィンドウに切り替える"
+msgstr "Perjunkite į paskutinį langą naudodami <SUPER>"
 
 #: ../src/_dialogs.xml.h:33
 msgid ""
 "<b>This feature is disabled.</b>\n"
 "It requires X11 XInput2.0 extension which is is not provided by your system."
 msgstr ""
-"<b>この機能は無効化されています。</b>\n"
-"この機能を使うには X11 XInput2.0 extension が必要です。"
+"<b>Ši ypatybė yra išjungta.</b>\n"
+"Ji reikalauja X11 XInput2.0 plėtinio, kurio jūsų sistema neteikia."
 
 #: ../src/_dialogs.xml.h:35
 msgid "Keyboard hotkeys"
-msgstr "キーボードショートカット"
+msgstr "Spartieji klavišai"

@@ -4,9 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Xfce Bot <transifex@xfce.org>, 2023
-# Triyan W. Nugroho <triyan.wn@gmail.com>, 2023
-# Faisal Rachmadin <frachmadin@gmail.com>, 2023
+# Dušan Kazik <prescott66@gmail.com>, 2023
+# Nick Schermer <nick@xfce.org>, 2023
+# Slavko <linux@slavino.sk>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -15,38 +15,38 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-22 12:49+0100\n"
 "PO-Revision-Date: 2023-02-22 11:02+0000\n"
-"Last-Translator: Faisal Rachmadin <frachmadin@gmail.com>, 2023\n"
-"Language-Team: Indonesian (https://www.transifex.com/xfce/teams/16840/id/)\n"
+"Last-Translator: Slavko <linux@slavino.sk>, 2023\n"
+"Language-Team: Slovak (https://www.transifex.com/xfce/teams/16840/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: id\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #: ../src/Wnck.cpp:202
 msgid "Pinned to Dock"
-msgstr "Tersemat di Dok"
+msgstr ""
 
 #: ../src/Wnck.cpp:202
 msgid "Pin to Dock"
-msgstr "Sematkan di Dok"
+msgstr ""
 
 #: ../src/Wnck.cpp:203
 msgid "Edit Launcher"
-msgstr "Ubah Peluncur"
+msgstr "Upraviť spúšťač"
 
 #: ../src/Wnck.cpp:230
 msgid "Close All"
-msgstr "Tutup Semua"
+msgstr "Zatvoriť všetko"
 
 #: ../src/Wnck.cpp:249
 msgid "Remove"
-msgstr "Hapus"
+msgstr "Odstrániť"
 
 #: ../src/SettingsDialog.cpp:217
 #, c-format
 msgid "<b>Only the first %u hotkeys(s) are enabled.</b>\n"
-msgstr "<b>Hanya tombol pintas %u pertama yang diaktifkan.<b>\n"
+msgstr ""
 
 #: ../src/SettingsDialog.cpp:219
 #, c-format
@@ -54,138 +54,138 @@ msgid ""
 "The &lt;SUPER&gt;+%u combination seems already in use by another process.\n"
 "Check your Xfce settings."
 msgstr ""
-"Kombinasi &lt;SUPER&gt;+%u sepertinya sudah digunakan oleh proses lainnya.\n"
-"Cek pengaturan Xfce anda."
+"Kombinácia &lt;SUPER&gt;+%u sa javí ako už použitá iným procesom.\n"
+"Skontrolujte svoje nastavenia Xfce."
 
 #. namespace SettingsDialog
 #: ../src/docklike.desktop.in.h:1
 msgid "A modern, minimalist taskbar for Xfce"
-msgstr "Sebuah bilah tugas yang modern, minimalis untuk Xfce"
+msgstr "Moderný, minimalistický panel úloh pre Xfce"
 
 #: ../src/_dialogs.xml.h:1
 msgid "_Help"
-msgstr "_Bantuan"
+msgstr "_Pomocník"
 
 #: ../src/_dialogs.xml.h:2
 msgid "_Close"
-msgstr "_Tutup"
+msgstr "_Zatvoriť"
 
 #: ../src/_dialogs.xml.h:3
 msgid "Don't show the window list for a single window"
-msgstr "Jangan tampilkan daftar jendela untuk jendela tunggal"
+msgstr "Nezobrazovať zoznam okien pre jedno okno"
 
 #: ../src/_dialogs.xml.h:4
 msgid "Only show applications on the current workspace"
-msgstr "Hanya tampilkan aplikasi di ruang kerja saat ini"
+msgstr "Zobraziť aplikácie len z aktívneho pracovného priestoru"
 
 #: ../src/_dialogs.xml.h:5
 msgid "Only show applications on the current display"
-msgstr "Hanya tampilkan aplikasi di tampilan saat ini"
+msgstr "Zobraziť aplikácie len z aktívneho displeja"
 
 #: ../src/_dialogs.xml.h:6
 msgid "Show preview thumbnails for open windows"
-msgstr "Tampilkan pratinjau gambar mini untuk jendela yang terbuka"
+msgstr "Zobraziť ukážky otvorených okien"
 
 #: ../src/_dialogs.xml.h:7
 msgid "Show the number of open windows (if more than 2)"
-msgstr "Tampilkan jumlah jendela yang terbuka (jika lebih dari 2)"
+msgstr "Zobraziť počet otvorených okien (ak ich ej viac ako 2)"
 
 #: ../src/_dialogs.xml.h:8
 msgid "Behavior"
-msgstr "Perilaku"
+msgstr "Správanie"
 
 #: ../src/_dialogs.xml.h:9
 msgid "Active indicator style:"
-msgstr "Gaya indikator aktif:"
+msgstr "Štýl aktívneho indikátora:"
 
 #: ../src/_dialogs.xml.h:10
 msgid "Bars"
-msgstr "Batang"
+msgstr "Stĺpce"
 
 #: ../src/_dialogs.xml.h:11
 msgid "Dots"
-msgstr "Titik"
+msgstr "Bodky"
 
 #: ../src/_dialogs.xml.h:12
 msgid "Rectangles"
-msgstr "Persegi panjang"
+msgstr "Štvorce"
 
 #: ../src/_dialogs.xml.h:13
 msgid "Ciliora"
-msgstr "Ciliora"
+msgstr ""
 
 #: ../src/_dialogs.xml.h:14
 msgid "Circles"
-msgstr "Lingkaran"
+msgstr "Kruhy"
 
 #: ../src/_dialogs.xml.h:15
 msgid "None"
-msgstr "Tidak ada"
+msgstr "Žiadne"
 
 #: ../src/_dialogs.xml.h:16
 msgid "Inactive indicator style:"
-msgstr "Gaya indikator tidak aktif:"
+msgstr "Štýl neaktívneho indikátora:"
 
 #: ../src/_dialogs.xml.h:17
 msgid "Indicator orientation:"
-msgstr "Orientasi indikator:"
+msgstr "Orientácia indikátora:"
 
 #: ../src/_dialogs.xml.h:18
 msgid "Automatic"
-msgstr "Otomatis"
+msgstr "Automatická"
 
 #: ../src/_dialogs.xml.h:19
 msgid "Bottom"
-msgstr "Bawah"
+msgstr "Dole"
 
 #: ../src/_dialogs.xml.h:20
 msgid "Right"
-msgstr "Kanan"
+msgstr "Vpravo"
 
 #: ../src/_dialogs.xml.h:21
 msgid "Top"
-msgstr "Atas"
+msgstr "Hore"
 
 #: ../src/_dialogs.xml.h:22
 msgid "Left"
-msgstr "Kiri"
+msgstr "Vľavo"
 
 #: ../src/_dialogs.xml.h:23
 msgid "Get indicator color from theme"
-msgstr "Dapatkan warna indikator dari tema"
+msgstr "Získať farbu indikátora z témy"
 
 #: ../src/_dialogs.xml.h:24
 msgid "Active indicator:"
-msgstr "Indikator aktif:"
+msgstr "Aktívny indikátor:"
 
 #: ../src/_dialogs.xml.h:25
 msgid "Inactive indicator:"
-msgstr "Indikator tidak aktif:"
+msgstr "Neaktívny indikátor:"
 
 #: ../src/_dialogs.xml.h:26
 msgid "Force icon size:"
-msgstr "Paksa ukuran ikon:"
+msgstr "Vynútiť veľkosť ikony:"
 
 #: ../src/_dialogs.xml.h:27
 msgid "Appearance"
-msgstr "Tampilan"
+msgstr "Vzhľad"
 
 #: ../src/_dialogs.xml.h:28
 msgid "Switch between applications with <SUPER>+[1, 2, ...]"
-msgstr "Beralih antar aplikasi dengan <SUPER>+[1, 2, ...]"
+msgstr "Prepínať medzi aplikáciami pomocou <SUPER>+[1, 2, ...]"
 
 #: ../src/_dialogs.xml.h:29
 msgid "Switch to the last window with <SUPER>"
-msgstr "Beralih ke jendela terakhir dengan <SUPER>"
+msgstr " Prepnúť na posledné okno pomocou <SUPER>"
 
 #: ../src/_dialogs.xml.h:30
 msgid ""
 "<b>This feature is disabled.</b>\n"
 "It requires X11 XInput2.0 extension which is is not provided by your system."
 msgstr ""
-"<b>Fitur ini dinonaktifkan.</b>\n"
-"Fitur ini membutuhkan ekstensi X11 XInput2.0 yang tidak disediakan oleh sistem Anda."
+"<b>Táto funkcia je vypnutá.</b>\n"
+"Vyžaduje rozšírenie X11 XInput2.0, ktoré nie je vašim systémom poskytované."
 
 #: ../src/_dialogs.xml.h:32
 msgid "Keyboard hotkeys"
-msgstr "Tombol pintas papan ketik"
+msgstr "Klávesové skratky"

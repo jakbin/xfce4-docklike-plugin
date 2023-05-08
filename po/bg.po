@@ -4,9 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Xfce Bot <transifex@xfce.org>, 2023
-# Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2023
-# UTUMI Hirosi <utuhiro78@yahoo.co.jp>, 2023
+# Любомир Василев, 2023
+# Kiril Kirilov <cybercop_montana@abv.bg>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -15,38 +14,38 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-02 12:55+0100\n"
 "PO-Revision-Date: 2023-02-22 11:02+0000\n"
-"Last-Translator: UTUMI Hirosi <utuhiro78@yahoo.co.jp>, 2023\n"
-"Language-Team: Japanese (https://www.transifex.com/xfce/teams/16840/ja/)\n"
+"Last-Translator: Kiril Kirilov <cybercop_montana@abv.bg>, 2023\n"
+"Language-Team: Bulgarian (https://www.transifex.com/xfce/teams/16840/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: bg\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../src/Wnck.cpp:202
 msgid "Pinned to Dock"
-msgstr "ピン留め済み"
+msgstr "Прикачено към дока"
 
 #: ../src/Wnck.cpp:202
 msgid "Pin to Dock"
-msgstr "ドックにピン留め"
+msgstr "Прикачване към дока"
 
 #: ../src/Wnck.cpp:203
 msgid "Edit Launcher"
-msgstr "ランチャーを編集"
+msgstr "Редактиране на стартер"
 
 #: ../src/Wnck.cpp:230
 msgid "Close All"
-msgstr "全てのウィンドウを閉じる"
+msgstr "Затваряне на всички"
 
 #: ../src/Wnck.cpp:249
 msgid "Remove"
-msgstr "削除"
+msgstr "Премахване"
 
 #: ../src/SettingsDialog.cpp:225
 #, c-format
 msgid "<b>Only the first %u hotkeys(s) are enabled.</b>\n"
-msgstr "<b>最初の %u ホットキーのみが有効です。</b>\n"
+msgstr "<b>Само първите %u бързи клавиш(и) са активирани.</b>\n"
 
 #: ../src/SettingsDialog.cpp:227
 #, c-format
@@ -54,73 +53,73 @@ msgid ""
 "The &lt;SUPER&gt;+%u combination seems already in use by another process.\n"
 "Check your Xfce settings."
 msgstr ""
-"&lt;SUPER&gt;+%u の組み合わせは既に別のプロセス使用されているようです。\n"
-"Xfceの設定を確認して下さい。"
+"Комбинацията &lt;SUPER&gt;+%u изглежда вече се използва от друг процес.\n"
+"Проверете вашите настройки на Xfce."
 
 #. namespace SettingsDialog
 #: ../src/docklike.desktop.in.h:1
 msgid "A modern, minimalist taskbar for Xfce"
-msgstr "Xfce用のモダンで小さなタスクバー"
+msgstr "Модерна, минималистична лента на задачи за Xfce"
 
 #: ../src/_dialogs.xml.h:1
 msgid "_Help"
-msgstr "ヘルプ"
+msgstr "_Помощ"
 
 #: ../src/_dialogs.xml.h:2
 msgid "_Close"
-msgstr "閉じる"
+msgstr "_Затваряне"
 
 #: ../src/_dialogs.xml.h:3
 msgid "Don't show the window list for a single window"
-msgstr "1つのウィンドウの場合にウィンドウリストを非表示"
+msgstr "Да не се показва списъка с прозорци за един прозорец"
 
 #: ../src/_dialogs.xml.h:4
 msgid "Only show applications on the current workspace"
-msgstr "現在のワークスペースのアプリケーションのみ表示"
+msgstr "Показване на приложения само в текущото работно пространство"
 
 #: ../src/_dialogs.xml.h:5
 msgid "Only show applications on the current display"
-msgstr "現在のディスプレイのアプリケーションのみ表示"
+msgstr "Показване на приложения само на текущия дисплей"
 
 #: ../src/_dialogs.xml.h:6
 msgid "Show preview thumbnails for open windows"
-msgstr "ウィンドウのプレビューを表示"
+msgstr "Показване на миниатюри за визуализация за отворени прозорци"
 
 #: ../src/_dialogs.xml.h:7
 msgid "Show the number of open windows (if more than 2)"
-msgstr "開かれているウィンドウの数を表示（2つ以上の場合）"
+msgstr "Показване на броя отворени прозорци (ако са повече от 2)"
 
 #: ../src/_dialogs.xml.h:8
 msgid "Middle mouse button:"
-msgstr "マウスの中ボタン:"
+msgstr "Среден бутон на мишката:"
 
 #: ../src/_dialogs.xml.h:9
 msgid "Close all"
-msgstr "すべて閉じる"
+msgstr "Затваряне на всички"
 
 #: ../src/_dialogs.xml.h:10
 msgid "Launch new instance"
-msgstr "新しいインスタンスを起動"
+msgstr "Стартиране на ново копие"
 
 #: ../src/_dialogs.xml.h:11
 msgid "Behavior"
-msgstr "動作"
+msgstr "Поведение"
 
 #: ../src/_dialogs.xml.h:12
 msgid "Active indicator style:"
-msgstr "アクティブなインジケーターのスタイル:"
+msgstr "Стил на активният индикатор:"
 
 #: ../src/_dialogs.xml.h:13
 msgid "Bars"
-msgstr "バー"
+msgstr "Ленти"
 
 #: ../src/_dialogs.xml.h:14
 msgid "Dots"
-msgstr "ドット"
+msgstr "Точки"
 
 #: ../src/_dialogs.xml.h:15
 msgid "Rectangles"
-msgstr "長方形"
+msgstr "Правоъгълници"
 
 #: ../src/_dialogs.xml.h:16
 msgid "Ciliora"
@@ -128,76 +127,76 @@ msgstr "Ciliora"
 
 #: ../src/_dialogs.xml.h:17
 msgid "Circles"
-msgstr "円"
+msgstr "Кръгове"
 
 #: ../src/_dialogs.xml.h:18
 msgid "None"
-msgstr "なし"
+msgstr "Без"
 
 #: ../src/_dialogs.xml.h:19
 msgid "Inactive indicator style:"
-msgstr "アクティブでないインジケーターのスタイル:"
+msgstr "Стил на неактивният индикатор:"
 
 #: ../src/_dialogs.xml.h:20
 msgid "Indicator orientation:"
-msgstr "インジケータの向き:"
+msgstr "Ориентация на индикатора:"
 
 #: ../src/_dialogs.xml.h:21
 msgid "Automatic"
-msgstr "自動"
+msgstr "Автоматично"
 
 #: ../src/_dialogs.xml.h:22
 msgid "Bottom"
-msgstr "下"
+msgstr "Отдолу"
 
 #: ../src/_dialogs.xml.h:23
 msgid "Right"
-msgstr "右"
+msgstr "Отдясно"
 
 #: ../src/_dialogs.xml.h:24
 msgid "Top"
-msgstr "上"
+msgstr "Отгоре"
 
 #: ../src/_dialogs.xml.h:25
 msgid "Left"
-msgstr "左"
+msgstr "Отляво"
 
 #: ../src/_dialogs.xml.h:26
 msgid "Get indicator color from theme"
-msgstr "テーマからインジケーターの色を取得"
+msgstr "Вземи цвят за индикатора от темата"
 
 #: ../src/_dialogs.xml.h:27
 msgid "Active indicator:"
-msgstr "アクティブなインジケーター:"
+msgstr "Активен индикатор:"
 
 #: ../src/_dialogs.xml.h:28
 msgid "Inactive indicator:"
-msgstr "アクティブでないインジケーター:"
+msgstr "Неактивен индикатор:"
 
 #: ../src/_dialogs.xml.h:29
 msgid "Force icon size:"
-msgstr "アイコンサイズを強制的に変更する:"
+msgstr "Форсиран размер на икона:"
 
 #: ../src/_dialogs.xml.h:30
 msgid "Appearance"
-msgstr "見た目"
+msgstr "Външен вид"
 
 #: ../src/_dialogs.xml.h:31
 msgid "Switch between applications with <SUPER>+[1, 2, ...]"
-msgstr "アプリケーションを <SUPER>+[1, 2, ...] で切り替える"
+msgstr "Превключване между приложенията с<SUPER>+[1, 2, ...]"
 
 #: ../src/_dialogs.xml.h:32
 msgid "Switch to the last window with <SUPER>"
-msgstr "<SUPER> で最後のウィンドウに切り替える"
+msgstr "Преминаване към последния прозорец с <SUPER>"
 
 #: ../src/_dialogs.xml.h:33
 msgid ""
 "<b>This feature is disabled.</b>\n"
 "It requires X11 XInput2.0 extension which is is not provided by your system."
 msgstr ""
-"<b>この機能は無効化されています。</b>\n"
-"この機能を使うには X11 XInput2.0 extension が必要です。"
+"<b>Тази опция ще бъде деактивирана.</b>\n"
+"Изисква разширение X11 XInput2.0, което не се предоставя от вашата система."
 
 #: ../src/_dialogs.xml.h:35
 msgid "Keyboard hotkeys"
-msgstr "キーボードショートカット"
+msgstr "Бързи клавиши на клавиатурата"

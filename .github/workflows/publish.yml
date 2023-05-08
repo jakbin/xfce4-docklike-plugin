@@ -15,27 +15,23 @@ jobs:
     - name: Build
       run: |
         mkdir usr
-        ./autogen.sh --prefix=/home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin/usr
+        ./install.sh --prefix=/home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin/usr
         make
         make install
 
     - name: Build Deb File for Ubuntu
       run: |
-        mkdir xfce4-docklike-plugin-ubuntu
-        cp -R DEBIAN xfce4-docklike-plugin-ubuntu
-        cp -R usr xfce4-docklike-plugin-ubuntu
-        dpkg -b xfce4-docklike-plugin-ubuntu
-
-    - name: Build Deb File for Debian
-      run: |
-        ./build_for_bebian.sh xfce4-docklike-plugin-ubuntu.deb
+        mkdir xfce4-docklike-plugin
+        cp -R DEBIAN xfce4-docklike-plugin
+        cp -R usr xfce4-docklike-plugin
+        dpkg -b xfce4-docklike-plugin
 
     - name: Automatic Release
       uses: marvinpinto/action-automatic-releases@latest
       with: 
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
-        automatic_release_tag: "latest"
+        automatic_release_tag: "0.4.1"
         prerelease: false
-        title: "Latest Build"
+        title: "Latest Build - 0.4.1"
         files: |
           *.deb
