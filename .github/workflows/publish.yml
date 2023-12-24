@@ -3,7 +3,7 @@ name: Publish package
 on: [push]
 
 env:
-  version: "0.4.1"
+  version: "0.4.2"
 
 jobs:
   build-xfce4-docklike-plugin:
@@ -17,19 +17,19 @@ jobs:
 
     - name: Build
       run: |
-        wget https://archive.xfce.org/src/panel-plugins/xfce4-docklike-plugin/0.4/xfce4-docklike-plugin-$version.tar.bz2
-        tar -xvf xfce4-docklike-plugin-$version.tar.bz2
-        cd xfce4-docklike-plugin-$version
+        wget https://archive.xfce.org/src/panel-plugins/xfce4-docklike-plugin/0.4/xfce4-docklike-plugin-${{ env.version }}.tar.bz2
+        tar -xvf xfce4-docklike-plugin-${{ env.version }}.tar.bz2
+        cd xfce4-docklike-plugin-${{ env.version }}
         mkdir usr
-        ./configure --prefix=/home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin-$version/usr
+        ./configure --prefix=/home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/usr
         make
         make install
 
     - name: Build Deb File
       run: |
-        cd xfce4-docklike-plugin-$version
+        cd xfce4-docklike-plugin-${{ env.version }}
         mkdir xfce4-docklike-plugin
-        cp -R /home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin/DEBIAN /home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin/xfce4-docklike-plugin-$version/xfce4-docklike-plugin/
+        cp -R /home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin/DEBIAN /home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/xfce4-docklike-plugin/
         cp -R usr xfce4-docklike-plugin
         dpkg -b xfce4-docklike-plugin
 
@@ -37,8 +37,8 @@ jobs:
       uses: marvinpinto/action-automatic-releases@latest
       with: 
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
-        automatic_release_tag: $version
+        automatic_release_tag: ${{ env.version }}
         prerelease: false
-        title: $version
+        title:  "Latest Build ${{ env.version }}"
         files: |
-          *.deb
+          xfce4-docklike-plugin-${{ env.version }}/*.deb
