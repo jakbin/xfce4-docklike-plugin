@@ -16,7 +16,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Install Dependencies
-      run: sudo apt update && sudo apt-get install wget tar build-essential dpkg binutils intltool xfce4-dev-tools xorg-dev libglib2.0-dev libgtk-3-dev libwnck-3-dev libxfce4ui-2-dev libxfce4panel-2.0-dev
+      run: sudo apt update && sudo apt-get install wget tree tar build-essential dpkg binutils intltool xfce4-dev-tools xorg-dev libglib2.0-dev libgtk-3-dev libwnck-3-dev libxfce4ui-2-dev libxfce4panel-2.0-dev
 
     - name: Build
       run: |
@@ -24,14 +24,21 @@ jobs:
         tar -xvf xfce4-docklike-plugin-${{ env.version }}.tar.bz2
         cd xfce4-docklike-plugin-${{ env.version }}
         mkdir usr
-        ./configure --prefix=/home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/usr
+        ./configure --prefix=/home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/usr
         make
         make install
+        ls
+        pwd
 
     - name: Build Deb File
       run: |
+        ls
+        pwd
+        tree
         cd xfce4-docklike-plugin-${{ env.version }}
         mkdir xfce4-docklike-plugin
+        ls
+        ls usr
         cp -R /home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin/DEBIAN /home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/xfce4-docklike-plugin/
         cp -R usr xfce4-docklike-plugin
         dpkg -b xfce4-docklike-plugin
