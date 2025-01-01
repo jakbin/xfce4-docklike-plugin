@@ -19,7 +19,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Install Dependencies
-      run: apt update && sudo apt-get install wget tar build-essential dpkg binutils intltool xfce4-dev-tools xorg-dev libxfce4windowing-0-dev libglib2.0-dev libgtk-3-dev libwnck-3-dev libxfce4ui-2-dev libxfce4panel-2.0-dev
+      run: apt update && apt-get install wget tar build-essential dpkg binutils intltool xfce4-dev-tools xorg-dev libxfce4windowing-0-dev libglib2.0-dev libgtk-3-dev libwnck-3-dev libxfce4ui-2-dev libxfce4panel-2.0-dev -y
 
     - name: Build
       run: |
