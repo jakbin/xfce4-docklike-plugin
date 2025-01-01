@@ -33,8 +33,12 @@ jobs:
 
     - name: Build Deb File
       run: |
+        pwd
         cd xfce4-docklike-plugin-${{ env.version }}
         mkdir xfce4-docklike-plugin
+        pwd
+        ls -lh /home/runner/work/xfce4-docklike-plugin/
+        ls -lh /home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin/
         cp -R /home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin/DEBIAN /home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/xfce4-docklike-plugin/
         cp -R usr xfce4-docklike-plugin
         dpkg -b xfce4-docklike-plugin
