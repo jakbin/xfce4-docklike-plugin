@@ -27,9 +27,17 @@ jobs:
         tar -xvf xfce4-docklike-plugin-${{ env.version }}.tar.bz2
         cd xfce4-docklike-plugin-${{ env.version }}
         mkdir usr
-        ./configure --prefix=/home/runner/work/xfce4-docklike-plugin/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/usr
+        ./configure --prefix=/__w/xfce4-docklike-plugin/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/usr
         make
         make install
+        zip -r xfce4-docklike-plugin.zip usr/
+
+    - name: Upload archive
+      uses: actions/upload-artifact@v4
+      with:
+        name: xfce4-docklike-plugin.zip
+        path: /__w/xfce4-docklike-plugin/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/*
+        retention-days: 3
 
     - name: Build Deb File
       run: |
