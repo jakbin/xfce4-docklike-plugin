@@ -11,6 +11,9 @@ env:
 jobs:
   build-xfce4-docklike-plugin:
     runs-on: ubuntu-latest
+    container:
+      image: debian:sid
+      
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
