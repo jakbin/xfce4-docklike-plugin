@@ -19,7 +19,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Install Dependencies
-      run: apt update && apt-get install wget zip tar build-essential dpkg binutils intltool xfce4-dev-tools xorg-dev libxfce4windowing-0-dev libglib2.0-dev libgtk-3-dev libwnck-3-dev libxfce4ui-2-dev libxfce4panel-2.0-dev -y
+      run: apt update && apt-get install wget tar build-essential dpkg binutils intltool xfce4-dev-tools xorg-dev libxfce4windowing-0-dev libglib2.0-dev libgtk-3-dev libwnck-3-dev libxfce4ui-2-dev libxfce4panel-2.0-dev -y
 
     - name: Build
       run: |
@@ -27,15 +27,14 @@ jobs:
         tar -xvf xfce4-docklike-plugin-${{ env.version }}.tar.bz2
         cd xfce4-docklike-plugin-${{ env.version }}
         mkdir usr
-        ./configure --prefix=/__w/xfce4-docklike-plugin/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/usr
+        ./configure --prefix=/__w/xfce4-docklike-plugin/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/usr --libdir==/__w/xfce4-docklike-plugin/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/usr/lib/x86_64-linux-gnu/ 
         make
         make install
-        zip -r xfce4-docklike-plugin.zip usr/
 
     - name: Upload archive
       uses: actions/upload-artifact@v4
       with:
-        name: xfce4-docklike-plugin.zip
+        name: xfce4-docklike-plugin
         path: /__w/xfce4-docklike-plugin/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/*
         retention-days: 3
 
