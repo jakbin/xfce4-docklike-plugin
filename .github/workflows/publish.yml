@@ -27,7 +27,7 @@ jobs:
         tar -xvf xfce4-docklike-plugin-${{ env.version }}.tar.bz2
         cd xfce4-docklike-plugin-${{ env.version }}
         mkdir usr
-        ./configure --prefix=/__w/xfce4-docklike-plugin/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/usr --libdir==/__w/xfce4-docklike-plugin/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/usr/lib/x86_64-linux-gnu/ 
+        ./configure --prefix=/__w/xfce4-docklike-plugin/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/usr --libdir=/__w/xfce4-docklike-plugin/xfce4-docklike-plugin/xfce4-docklike-plugin-${{ env.version }}/usr/lib/x86_64-linux-gnu/ 
         make
         make install
 
