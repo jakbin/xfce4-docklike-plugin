@@ -42,7 +42,7 @@ jobs:
       run: |
         cd xfce4-docklike-plugin-${{ env.version }}
         mkdir -p xfce4-docklike-plugin/DEBIAN
-        cp -R build/xfce4-docklike-plugin/ xfce4-docklike-plugin
+        cp -R build/xfce4-docklike-plugin/* xfce4-docklike-plugin
         cp -R /__w/xfce4-docklike-plugin/xfce4-docklike-plugin/DEBIAN/* xfce4-docklike-plugin/DEBIAN/
         dpkg -b xfce4-docklike-plugin
 
