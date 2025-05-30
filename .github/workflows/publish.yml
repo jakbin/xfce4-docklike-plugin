@@ -28,7 +28,6 @@ jobs:
         tar -xvf xfce4-docklike-plugin-${{ env.version }}.tar.xz
         cd xfce4-docklike-plugin-${{ env.version }}
         meson setup --prefix=/usr build
-        meson configure build -D enable-apport=false -D production-release=true
         meson compile -C build
         meson install -C build --destdir=xfce4-docklike-plugin
 
