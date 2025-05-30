@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - .github/workflows/publish.yml
+  workflow_dispatch:
 
 env:
   version: "0.5.0"
@@ -23,7 +24,7 @@ jobs:
 
     - name: Build
       run: |
-        wget https://archive.xfce.org/src/panel-plugins/xfce4-docklike-plugin/0.4/xfce4-docklike-plugin-${{ env.version }}.tar.xz
+        wget https://archive.xfce.org/src/panel-plugins/xfce4-docklike-plugin/0.5/xfce4-docklike-plugin-${{ env.version }}.tar.xz
         tar -xvf xfce4-docklike-plugin-${{ env.version }}.tar.xz
         cd xfce4-docklike-plugin-${{ env.version }}
         meson setup --prefix=/usr build
